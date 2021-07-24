@@ -19,22 +19,30 @@ function calcFactory(val) {
   return {
     plus: function (target) {
       const newVal = val + target;
-      console.log(val + " + " + target + " = " + newVal);
+      // console.log(val + " + " + target + " = " + newVal);
+      // テンプレート構文に直す
+      console.log(`${val} + ${target} = ${newVal}`);
       val = newVal;
     },
     minus: function (target) {
       const newVal = val - target;
-      console.log(val + " - " + target + " = " + newVal);
+      // console.log(val + " - " + target + " = " + newVal);
+      // テンプレート構文に直す
+      console.log(`${val} - ${target} = ${newVal}`);
       val = newVal;
     },
     multiply: function (target) {
       const newVal = val * target;
-      console.log(val + " * " + target + " = " + newVal);
+      // console.log(val + " * " + target + " = " + newVal);
+      // テンプレート構文に直す
+      console.log(`${val} * ${target} = ${newVal}`);
       val = newVal;
     },
     divide: function (target) {
       const newVal = val / target;
-      console.log(val + " / " + target + " = " + newVal);
+      // console.log(val + " / " + target + " = " + newVal);
+      // テンプレート構文に直す
+      console.log(`${val} / ${target} = ${newVal}`);
       val = newVal;
     },
   };
