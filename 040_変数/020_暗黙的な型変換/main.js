@@ -1,20 +1,23 @@
-// let a = 0;
-// let a = 0;
+function printTypeAndValue(val) {
+  console.log(typeof val, val);
+}
 
-// var b = 0;
-// var b = 1;
+let a = 0;
 
-// let c = 0;
-// c = 1;
+printTypeAndValue(a);
 
-// const d = 0;
-// d = 1;
+let b = parseInt("1") + a;
 
-// {
-//   let e = 0;
-//   var f = 0;
-// }
+printTypeAndValue(b);
 
-console.log(h);
-let g = 0;
-var h = 0;
+let c = 15 - b;
+
+printTypeAndValue(c);
+
+let d = c - null;
+
+printTypeAndValue(d);
+
+let e = d - true;
+
+printTypeAndValue(e);
