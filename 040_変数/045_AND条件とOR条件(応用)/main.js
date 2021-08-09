@@ -1,8 +1,13 @@
 function hello(name) {
-  if (!name) {
-    name = "Tom";
-  }
+  name = name || "Tom";
+  // if (!name) {
+  //   name = "Tom";
+  // }
   console.log("Hello " + name);
 }
 
 hello();
+
+let name;
+
+name && hello(name);
