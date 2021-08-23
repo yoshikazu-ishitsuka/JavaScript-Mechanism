@@ -23,7 +23,9 @@ console.log("!10 === false", !10 === false);
 let a = 1;
 
 function fn(num) {
-  num = num || -1;
+  if (num === undefined || num === null) {
+    num = -1;
+  }
   console.log(num);
 }
 fn(a);
