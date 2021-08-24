@@ -40,3 +40,10 @@ fn(a);
  * greeting("Bob"); -> 出力結果："hello, Bob"
  *
  */
+function greeting(name, hi) {
+  hi = hi || "hello";
+  console.log(`${hi}, ${name}`);
+}
+
+greeting("Bob", "hi");
+greeting("Bob");
