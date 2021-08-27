@@ -15,7 +15,7 @@ let obj = {
 const obj2 = obj;
 obj2.prop1 = 9;
 
-// console.log(obj); // 問題２
+console.log(obj); // 問題２
 
 function fn1(arg) {
   arg.prop2 = 8;
