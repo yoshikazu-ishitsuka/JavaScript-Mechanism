@@ -29,8 +29,8 @@ console.log(obj.prop1);
  */
 
 function double(obj) {
-  let { prop1 } = obj;
-  prop1 = prop1 * 2;
+  //   let { prop1 } = obj;
+  obj.prop1 = obj.prop1 * 2;
 }
 
 double(obj);
