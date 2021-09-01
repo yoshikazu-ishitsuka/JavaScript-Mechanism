@@ -54,7 +54,7 @@ function fn({ prop2 }) {
   return { prop2: prop };
 }
 obj = fn(obj);
-// console.log(obj.prop2.prop3);
+console.log(obj.prop2.prop3);
 
 /**
  * 問題４：
