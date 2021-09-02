@@ -66,4 +66,4 @@ function through(obj) {
 }
 
 const obj2 = through(obj);
-// console.log(obj === obj2);
+console.log(obj === obj2);
