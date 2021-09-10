@@ -1,5 +1,5 @@
-function hello() {
-  console.log("hello");
+function hello(name) {
+  console.log("hello" + name);
 }
 
 function bye() {
@@ -7,8 +7,11 @@ function bye() {
 }
 
 function fn(cb) {
-  cb();
+  cb("Tom");
 }
 
 fn(hello);
 fn(bye);
+fn(function (name) {
+  console.log("hello" + name);
+});
