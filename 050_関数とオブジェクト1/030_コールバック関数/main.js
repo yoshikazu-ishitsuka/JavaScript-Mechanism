@@ -15,3 +15,5 @@ fn(bye);
 fn(function (name) {
   console.log("hello" + name);
 });
+
+setTimeout(hello, 2000);
