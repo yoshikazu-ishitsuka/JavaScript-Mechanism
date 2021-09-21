@@ -16,10 +16,10 @@ function fn(ref) {
 
 fn(helloTom);
 
-function a() {
-  console.log("hello " + this.name);
+function a(name) {
+  console.log("hello " + name);
 }
 
-const b = a.bind({ name: "Tim" });
+const b = a.bind(null, "Tim"); // bindは固定。thisや引数を固定した新たな関数が作成される
 
-b();
+b("Tom");
