@@ -10,3 +10,8 @@ b();
 
 a.apply(tim, ["Tim, 'Bob"]);
 a.call(tim, "Tim");
+
+const arry = [1, 2, 3, 4, 5];
+
+const result = Math.max.apply(null, arry);
+console.log(result);
