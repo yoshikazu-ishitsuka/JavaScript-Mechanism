@@ -8,4 +8,11 @@ const person = {
     a();
   },
 };
-person.hello();
+// person.hello();
+
+function b() {
+  const a = () => console.log("Bye " + this.name);
+  a();
+}
+
+b();
