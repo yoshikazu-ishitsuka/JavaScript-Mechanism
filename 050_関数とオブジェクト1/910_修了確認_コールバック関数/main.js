@@ -27,6 +27,10 @@ setTimeout(function () {
  * ※alertは第一引数に渡した文字列を画面のダイアログに表
  * 示する関数です。
  */
+setTimeout(function () {
+  const hello = person.hello();
+  alert(hello);
+}, 1000);
 
 /**
  * 問題３：
