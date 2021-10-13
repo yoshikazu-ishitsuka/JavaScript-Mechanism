@@ -52,7 +52,15 @@ function after1s(callack) {
 }
 
 // この時点で実行します。
-// after1s(obj.greeting);
+after1s(obj.greeting);
+
+let obj1 = {
+  prop: 10,
+};
+
+let callback = obj1;
+obj1 = {};
+console.log(obj2);
 
 // この後でgreetingを書き換えます。
 obj.greeting = function () {
