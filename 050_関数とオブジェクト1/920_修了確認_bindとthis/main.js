@@ -38,7 +38,7 @@ setTimeout(person.hello.bind(person, "hello"), 1000);
  * と出力されるように、
  * 以下のコードを変更してください。
  */
-alert(person.hello);
+alert(person.hello("hello"));
 
 /**
  * 問題３：
