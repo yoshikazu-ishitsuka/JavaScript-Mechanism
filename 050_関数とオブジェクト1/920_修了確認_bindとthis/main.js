@@ -22,7 +22,11 @@ const person = {
    * ２．アロー関数
    * ３．thisを一旦変数に代入
    */
+  hello1s() {
+    setTimeout(this.hello.bind(this, "hello"), 1000);
+  },
 };
+person.hello1s();
 
 /**
  * 問題１：
@@ -30,7 +34,7 @@ const person = {
  * と出力されるように、以下のコード
  * の記載を変更しましょう。
  */
-setTimeout(person.hello.bind(person, "hello"), 1000);
+// setTimeout(person.hello.bind(person, "hello"), 1000);
 
 /**
  * 問題２：
@@ -47,4 +51,4 @@ setTimeout(person.hello.bind(person, "hello"), 1000);
  * "Bye"しか表示されませんでした。
  * "Bye Tom"とするためにはどうすればよいでしょうか？
  */
-setTimeout(person.bye.bind(person), 1000);
+// setTimeout(person.bye.bind(person), 1000);
