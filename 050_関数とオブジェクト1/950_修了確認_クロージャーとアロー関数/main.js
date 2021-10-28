@@ -15,16 +15,19 @@ console.log(result);
  * 問題２：
  * incrementFactoryを短く書き直してみましょう。
  */
-function incrementFactory() {
+const incrementFactory = () => {
   let num = 0;
 
-  function a() {
-    num = num + 1;
-    console.log(num);
-  }
+  //   function a() {
+  //     num = num + 1;
+  //     console.log(num);
+  //   }
 
-  return a;
-}
+  return () => {
+    // num = num + 1;
+    console.log(++num);
+  };
+};
 
 const increment = incrementFactory();
 
