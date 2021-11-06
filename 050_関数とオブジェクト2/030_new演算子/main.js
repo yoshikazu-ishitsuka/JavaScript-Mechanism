@@ -6,5 +6,9 @@ function F(a, b) {
 
 F.prototype.c = function () {};
 
-const instance = new F(1, 2);
+function newOpe(C, ...args) {
+  console.log(args);
+}
+
+const instance = newOpe(F, 1, 2);
 console.log(instance);
