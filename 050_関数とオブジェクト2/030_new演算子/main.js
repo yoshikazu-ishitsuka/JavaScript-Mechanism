@@ -1,13 +1,14 @@
 function F(a, b) {
   this.a = a;
   this.b = b;
-  return {};
+  // return {};
 }
 
 F.prototype.c = function () {};
 
 function newOpe(C, ...args) {
-  console.log(args);
+  const _this = Object.create(C.prototype);
+  console.log(_this);
 }
 
 const instance = newOpe(F, 1, 2);
