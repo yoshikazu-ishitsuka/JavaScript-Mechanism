@@ -1,9 +1,9 @@
 function F(a, b) {
   this.a = a;
   this.b = b;
-  const result = new Object();
-  result.a = 1;
-  return result;
+  // const result = new Object();
+  // result.a = 1;
+  // return result;
 }
 
 F.prototype.c = function () {};
