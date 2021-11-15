@@ -9,5 +9,5 @@ function F(a, b) {
 F.prototype.c = function () {};
 
 const instance = new F(1, 2);
-console.log(instance instanceof F);
+console.log(instance instanceof Object);
 console.log(instance.__proto__ === Object.prototype);
