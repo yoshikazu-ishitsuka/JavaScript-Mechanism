@@ -15,3 +15,9 @@ function fn2(a, b) {
 }
 
 console.log(fn2 instanceof Function);
+
+const obj = new (function () {
+  this.a = 0;
+})();
+const fn3 = new Function("return");
+console.log(obj, fn3);
