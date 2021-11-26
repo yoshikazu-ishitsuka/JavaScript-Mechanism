@@ -4,11 +4,11 @@ function Person(name, age) {
 }
 
 Person.prototype.hello = function () {
-  console.log("hello " + this.name);
+  console.log("Person: hello " + this.name);
 };
 
 Object.prototype.hello = function () {
-  console.log("hello " + this.name);
+  console.log("Object: hello " + this.name);
 };
 
 const bob = new Person("Bob", 18);
