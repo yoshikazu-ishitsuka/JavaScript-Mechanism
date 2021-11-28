@@ -1,9 +1,9 @@
 function Person(name, age) {
   this.name = name;
   this.age = age;
-  this.hello = function () {
-    console.log("OwnProperty: hello " + this.name);
-  };
+  // this.hello = function () {
+  //   console.log("OwnProperty: hello " + this.name);
+  // };
 }
 
 // Person.prototype.hello = function () {
@@ -16,3 +16,5 @@ Object.prototype.hello = function () {
 
 const bob = new Person("Bob", 18);
 bob.hello();
+
+bob.hasOwnProperty();
