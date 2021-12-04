@@ -10,4 +10,4 @@ Object.prototype.hello = function () {
 const bob = new Person("Bob", 18);
 const result = bob.hasOwnProperty("name");
 console.log(result);
-console.log("hello" in bob);
+console.log("hasOwnProperty" in bob);
