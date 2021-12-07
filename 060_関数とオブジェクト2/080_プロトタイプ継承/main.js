@@ -6,3 +6,8 @@ function Person(name, age) {
 Person.prototype.hello = function () {
   console.log("hello " + this.name);
 };
+
+function Japanese(name, age) {
+  this.name = name;
+  this.age = age;
+}
