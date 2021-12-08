@@ -7,6 +7,8 @@ Person.prototype.hello = function () {
   console.log("hello " + this.name);
 };
 
-function Japanese(name, age) {}
+function Japanese(name, age) {
+  Person.call(this, name, age);
+}
 
 Japanese.prototype = Object.create(Person.prototype);
