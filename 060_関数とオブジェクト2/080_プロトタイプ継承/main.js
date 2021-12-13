@@ -17,6 +17,10 @@ Japanese.prototype.hello = function () {
   console.log("Konnichiwa " + this.name);
 };
 
+Japanese.prototype.hello = function () {
+  console.log("Konnichiwa " + this.name);
+};
+
 const taro = new Japanese("Taro", 23);
 console.log(taro);
 
