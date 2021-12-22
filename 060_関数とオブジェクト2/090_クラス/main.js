@@ -4,9 +4,9 @@ class Person {
     this.age = age;
   }
 
-  hello = function () {
+  hello() {
     console.log("hello " + this.name);
-  };
+  }
 }
 
 // function Person(name, age) {
