@@ -3,6 +3,10 @@ class Person {
     this.name = name;
     this.age = age;
   }
+
+  hello() {
+    console.log("hello " + this.name);
+  }
 }
 
 function Person(name, age) {
