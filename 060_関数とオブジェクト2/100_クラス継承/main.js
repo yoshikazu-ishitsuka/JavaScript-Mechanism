@@ -9,14 +9,14 @@ class Person {
   }
 }
 
-function Person(name, age) {
-  this.name = name;
-  this.age = age;
-}
+// function Person(name, age) {
+//   this.name = name;
+//   this.age = age;
+// }
 
-Person.prototype.hello = function () {
-  console.log("hello " + this.name);
-};
+// Person.prototype.hello = function () {
+//   console.log("hello " + this.name);
+// };
 
 function Japanese(name, age, gender) {
   Person.call(this, name, age);
