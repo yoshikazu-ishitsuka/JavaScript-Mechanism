@@ -18,7 +18,7 @@ class Person {
 //   console.log("hello " + this.name);
 // };
 
-class Japanese {
+class Japanese extends Person {
   constructor(name, age, gender) {
     Person.call(this, name, age);
     this.gender = gender;
