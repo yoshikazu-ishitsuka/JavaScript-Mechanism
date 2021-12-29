@@ -18,6 +18,13 @@ class Person {
 //   console.log("hello " + this.name);
 // };
 
+class Japanese {
+  constructor(name, age, gender) {
+    Person.call(this, name, age);
+    this.gender = gender;
+  }
+}
+
 function Japanese(name, age, gender) {
   Person.call(this, name, age);
   this.gender = gender;
