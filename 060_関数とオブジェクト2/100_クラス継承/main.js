@@ -20,7 +20,7 @@ class Person {
 
 class Japanese extends Person {
   constructor(name, age, gender) {
-    Person.call(this, name, age);
+    super(name, age);
     this.gender = gender;
   }
 }
