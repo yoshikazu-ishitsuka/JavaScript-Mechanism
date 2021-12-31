@@ -25,10 +25,10 @@ class Japanese extends Person {
   }
 }
 
-function Japanese(name, age, gender) {
-  Person.call(this, name, age);
-  this.gender = gender;
-}
+// function Japanese(name, age, gender) {
+//   Person.call(this, name, age);
+//   this.gender = gender;
+// }
 
 Japanese.prototype = Object.create(Person.prototype);
 
