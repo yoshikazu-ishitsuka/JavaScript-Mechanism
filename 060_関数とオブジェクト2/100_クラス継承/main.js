@@ -30,7 +30,7 @@ class Japanese extends Person {
 //   this.gender = gender;
 // }
 
-Japanese.prototype = Object.create(Person.prototype);
+// Japanese.prototype = Object.create(Person.prototype);
 
 Japanese.prototype.hello = function () {
   console.log("Konnichiwa " + this.name);
