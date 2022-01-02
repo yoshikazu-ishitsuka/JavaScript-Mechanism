@@ -23,6 +23,10 @@ class Japanese extends Person {
     super(name, age);
     this.gender = gender;
   }
+
+  hello() {
+    console.log("Konnichiwa " + this.name);
+  }
 }
 
 // function Japanese(name, age, gender) {
