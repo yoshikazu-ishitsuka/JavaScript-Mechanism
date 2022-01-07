@@ -16,6 +16,7 @@ class Japanese extends Person {
   }
 
   hello() {
+    super.hello();
     console.log("Konnichiwa " + this.name);
   }
 
