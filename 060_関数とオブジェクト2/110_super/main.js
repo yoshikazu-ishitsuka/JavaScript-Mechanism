@@ -27,6 +27,4 @@ class Japanese extends Person {
 
 const taro = new Japanese("Taro", 23, "Male");
 console.log(taro);
-
 taro.hello();
-taro.bye();
