@@ -34,3 +34,10 @@ const american = {
     console.log("hello " this.name);
   }
 }
+
+const bob = {
+  name: "Bob",
+  hello(){
+    console.log("hello " this.name)
+  }
+}
