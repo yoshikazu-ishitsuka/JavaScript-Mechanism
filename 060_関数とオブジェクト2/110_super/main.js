@@ -30,14 +30,17 @@ console.log(taro);
 taro.hello();
 
 const american = {
-  hello(){
-    console.log("hello " this.name);
-  }
-}
+  hello() {
+    console.log("hello " + this.name);
+  },
+};
 
 const bob = {
   name: "Bob",
-  hello(){
-    console.log("hello " this.name)
-  }
-}
+  hello() {
+    console.log("hello " + this.name);
+  },
+};
+
+Object.setPrototypeOf(bob, american);
+bob.hello();
