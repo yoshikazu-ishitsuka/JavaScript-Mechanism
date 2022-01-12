@@ -38,7 +38,8 @@ const american = {
 const bob = {
   name: "Bob",
   hello() {
-    console.log("hello " + this.name);
+    super.hello();
+    // console.log("hello " + this.name);
   },
 };
 
