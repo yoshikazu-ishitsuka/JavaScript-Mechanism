@@ -42,6 +42,9 @@ const bob = {
     // console.log("hello " + this.name);
   },
 };
+bob.bye = function () {
+  super.hello();
+};
 
 Object.setPrototypeOf(bob, american);
 bob.hello();
