@@ -1,2 +1,2 @@
-const s = Symbol();
+const s = Symbol("hello");
 console.log(s);
