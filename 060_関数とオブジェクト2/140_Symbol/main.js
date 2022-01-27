@@ -1,2 +1,3 @@
 const s = Symbol("hello");
-console.log(s);
+const s2 = Symbol("hello");
+console.log(s === s2);
