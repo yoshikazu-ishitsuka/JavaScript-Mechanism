@@ -4,3 +4,5 @@ console.log(typeof s);
 
 const str = new String("Tom");
 console.log(str);
+
+String.prototype.iterator = function () {};
