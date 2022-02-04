@@ -8,3 +8,6 @@ console.log(str);
 String.prototype[s] = function () {
   return "hello " + this;
 };
+
+const tom = "Tom";
+tom[s];
