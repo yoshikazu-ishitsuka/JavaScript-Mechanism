@@ -10,4 +10,4 @@ String.prototype[s] = function () {
 };
 
 const tom = "Tom";
-tom[s];
+console.log(tom[s]());
