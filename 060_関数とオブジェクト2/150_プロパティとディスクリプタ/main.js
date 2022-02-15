@@ -7,6 +7,7 @@ Object.defineProperty(obj, "prop", {
 });
 
 obj.prop = 1;
+console.log(obj.prop);
 
 const descriptor = Object.getOwnPropertyDescriptor(obj, "prop");
 
