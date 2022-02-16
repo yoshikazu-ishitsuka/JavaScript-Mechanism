@@ -1,3 +1,4 @@
+"use strict";
 // const obj = { prop: 0 };
 
 const obj = {};
