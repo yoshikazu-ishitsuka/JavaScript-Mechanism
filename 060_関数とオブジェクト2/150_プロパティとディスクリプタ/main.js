@@ -9,7 +9,6 @@ Object.defineProperty(obj, "prop", {
 });
 
 Object.defineProperty(obj, "prop", {
-  value: 0,
   writable: true,
 });
 
