@@ -9,7 +9,7 @@ Object.defineProperty(obj, "prop", {
 });
 
 Object.defineProperty(obj, "prop", {
-  writable: true,
+  enumerable: true,
 });
 
 obj.prop = 1;
