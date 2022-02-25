@@ -7,4 +7,7 @@ Object.defineProperty(Person1.prototype, "name", {
   get: function () {
     return this._name;
   },
+  set: function (val) {
+    this._name = val;
+  },
 });
