@@ -11,3 +11,5 @@ Object.defineProperty(Person1.prototype, "name", {
     this._name = val;
   },
 });
+
+const p1 = new Person1("Bob", 23);
