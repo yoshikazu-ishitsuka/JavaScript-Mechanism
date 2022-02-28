@@ -13,4 +13,6 @@ Object.defineProperty(Person1.prototype, "name", {
 });
 
 const p1 = new Person1("Bob", 23);
+
+p1.name = "Tom";
 console.log(p1.name);
