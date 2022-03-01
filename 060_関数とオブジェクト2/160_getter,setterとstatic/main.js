@@ -5,6 +5,7 @@ function Person(name, age) {
 
 Object.defineProperty(Person1.prototype, "name", {
   get: function () {
+    console.log("hello");
     return this._name;
   },
   set: function (val) {
