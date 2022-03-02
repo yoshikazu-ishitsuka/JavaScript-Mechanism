@@ -17,3 +17,9 @@ const p1 = new Person1("Bob", 23);
 
 p1.name = "Tom";
 console.log(p1.name);
+
+class Person2 {
+  constructor(name, age) {
+    this._name = name;
+    this._age = age;;
+}
