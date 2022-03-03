@@ -22,4 +22,12 @@ class Person2 {
   constructor(name, age) {
     this._name = name;
     this._age = age;;
+
+    get: function () {
+      console.log("hello");
+      return this._name;
+    },
+    set: function (val) {
+      this._name = val;
+    },
 }
