@@ -23,11 +23,11 @@ class Person2 {
     this._name = name;
     this._age = age;;
 
-    get: function () {
+    get name() {
       console.log("hello");
       return this._name;
     },
-    set: function (val) {
+    set name(val) {
       this._name = val;
     },
 }
