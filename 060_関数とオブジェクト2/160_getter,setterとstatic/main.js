@@ -27,7 +27,12 @@ class Person2 {
       console.log("hello");
       return this._name;
     },
+
     set name(val) {
       this._name = val;
-    },
+    }
+
+    static hello(){
+      console.log("hello")
+    }
 }
