@@ -36,3 +36,5 @@ class Person2 {
       console.log("hello")
     }
 }
+
+Person2.hello();
