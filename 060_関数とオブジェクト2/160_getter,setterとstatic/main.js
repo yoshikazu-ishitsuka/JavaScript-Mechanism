@@ -3,6 +3,10 @@ function Person(name, age) {
   this._age = age;
 }
 
+Person1.hello = function() {
+  console.log("hello")
+}
+
 Object.defineProperty(Person1.prototype, "name", {
   get: function () {
     console.log("hello");
