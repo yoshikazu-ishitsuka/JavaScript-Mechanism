@@ -6,6 +6,7 @@ function Person(name, age) {
 Person1.hello = function() {
   console.log("hello")
 }
+Person1.hello();
 
 Object.defineProperty(Person1.prototype, "name", {
   get: function () {
@@ -40,5 +41,7 @@ class Person2 {
       console.log("hello")
     }
 }
+
+
 
 Person2.hello();
