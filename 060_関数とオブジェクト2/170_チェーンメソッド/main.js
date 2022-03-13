@@ -4,3 +4,7 @@ class Person {
     this.age = age;
   }
 }
+
+hello(person){
+  console.log(`${this.name} says hello ${person.name}`);
+}
