@@ -15,4 +15,8 @@ class Person {
   shakeHands(person) {
     console.log(`${this.name} shake hands with ${person.name}`);
   }
+
+  bye(person) {
+    console.log(`Goodbye, ${person.name}.`);
+  }
 }
