@@ -20,3 +20,5 @@ class Person {
     console.log(`Goodbye, ${person.name}.`);
   }
 }
+
+const bob = new Person("Bob", 23);
