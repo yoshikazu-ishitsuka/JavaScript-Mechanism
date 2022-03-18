@@ -22,3 +22,4 @@ class Person {
 }
 
 const bob = new Person("Bob", 23);
+const tim = new Person("Tim", 33);
