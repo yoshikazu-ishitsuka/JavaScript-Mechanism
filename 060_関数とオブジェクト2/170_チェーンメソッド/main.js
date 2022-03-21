@@ -26,3 +26,4 @@ const tim = new Person("Tim", 33);
 
 bob.hello(tim);
 bob.introduce();
+bob.shakeHands(tim);
