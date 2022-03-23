@@ -24,7 +24,6 @@ class Person {
 const bob = new Person("Bob", 23);
 const tim = new Person("Tim", 33);
 
-bob.hello(tim);
-bob.introduce();
+bob.hello(tim).introduce();
 bob.shakeHands(tim);
 bob.bye(tim);
