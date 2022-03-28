@@ -6,6 +6,7 @@ class Person {
 
   hello(person) {
     console.log(`${this.name} says hello ${person.name}`);
+    return this;
   }
 
   introduce() {
