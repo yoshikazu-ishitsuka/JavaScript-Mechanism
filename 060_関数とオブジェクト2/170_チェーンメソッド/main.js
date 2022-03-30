@@ -15,6 +15,7 @@ class Person {
 
   shakeHands(person) {
     console.log(`${this.name} shake hands with ${person.name}`);
+    return this;
   }
 
   bye(person) {
