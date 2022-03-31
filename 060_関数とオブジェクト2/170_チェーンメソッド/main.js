@@ -11,6 +11,7 @@ class Person {
 
   introduce() {
     console.log(`Hi, I'm ${this.name}, ${this.age}`);
+    return this;
   }
 
   shakeHands(person) {
