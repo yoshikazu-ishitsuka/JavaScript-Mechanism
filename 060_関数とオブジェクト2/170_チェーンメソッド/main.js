@@ -21,6 +21,7 @@ class Person {
 
   bye(person) {
     console.log(`Goodbye, ${person.name}.`);
+    return this;
   }
 }
 
